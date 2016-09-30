@@ -28,7 +28,7 @@ navbar:
       href: mailto:magali.richard@univ-grenoble-alpes.fr                      # CHANGE HERE 
     - text: "GitHub"
       icon: fa-github
-      href: https://github.com/YOURGITHUB         # CHANGE HERE 
+      href: https://github.com/magrichard         # CHANGE HERE 
 output:
   html_document:
     theme: lumen
