@@ -2,7 +2,19 @@
 title: "Welcome to my website!"
 ---
 
-You're up and running!
 
-trop cool
-yeah
+# Who am I ?
+
+    Magali Richard
+
+    An experimental and theoritical geneticist
+
+    Contact: magali.richard at univ-grenoble-alpes.fr
+
+## What do I do ?
+
+My actual research project is focused on the genetic and epigenetic regulation of cancer in lung tumors. I recently joined the group of Daniel Jost (BCM Team, TIMC-IMAG). I am developping statistic and physic models to characterize cancer proliferation.
+
+I worked at the Gael Yvert team in Ecole Normale Supérieure de Lyon as a postdoc from february 2013 to august 2016 in the "Cell modelisation and Biology" laboratory. Our group was interested in inter-individual phenotypic variations, using the yeast Saccharomyces cerevisiae as model system. My main topic of interest was to better undersand the evolution and the regulation of gene networks (using both experimental and theoritical approaches). In parallel, I also investigated the fitness of yeast mutants in dynamic environment using a genomic approach.
+
+I carried out my PhD at the Biology Institute of the ENS Paris on genetics and neurobiology of the worm Caenorhabditis elegans in Jean-Louis Bessereau team. In particular, I discovered and identified a novel Er complex involved in maturation of transmembrane complexe proteins.
