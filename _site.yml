@@ -10,6 +10,15 @@ navbar:
     - text: "About"
       icon: fa-user 
       href: about.html
+    - text: "Research"
+      icon: fa-code-fork  
+      href: research.html
+    - text: "Teaching"
+      icon: fa-birthday-cake 
+      href: teaching.html
+    - text: "Publication"
+      icon: fa-university 
+      href: publication.html
     - text: "CV"
       icon: fa-file-pdf-o
       href: cv.html
@@ -19,11 +28,11 @@ navbar:
   right:
     - text: "Contact me"
       icon: fa-envelope-o
-      href: mailto:YOUREMAIL                      # CHANGE HERE 
+      href: mailto:magali.richard@univ-grenoble-alpes.fr                      # CHANGE HERE 
     - text: "GitHub"
       icon: fa-github
       href: https://github.com/YOURGITHUB         # CHANGE HERE 
 output:
   html_document:
-    theme: sandstone
+    theme: lumen
     highlight: textmate

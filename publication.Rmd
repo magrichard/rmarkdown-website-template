@@ -1,0 +1,56 @@
+---
+title: "Publication"
+---
+
+
+## Research article
+
+How does evolution tune biological noise ?
+
+*M. Richard and G. Yvert, Front Genet, 2014.*
+
+Biosynthesis of ionotropic acetylcholine receptors requires the evolutionarily conserved ER membrane complex.
+
+*M. Richard, T. Boulin, V. Robert, J. Richmond, and J-L. Bessereau, PNAS, 2013.*
+
+A Screen for X-linked mutations Affecting Drosophila Photoreceptor Differentia- tion Identifies Casein Kinase 1α as an Essential Negative Regulator of Wingless Signaling.
+
+*K. Legent, J. Steinhauer, M. Richard, and J.E. Treisman, Genetics, 2011.*
+
+##Communication at conferences
+
+2015. JOBIM, Poster, Clermont-Ferrand, France.
+*Identification of fitness advantage in dynamic environment by modelisation of BAR-seq data.*
+
+2014. Quatrièmes Rencontres R, Talk, Grenoble, France.
+*A general method to map single-cell probabilstic trait loci of the genome*
+
+2014. Experimental Approaches to Evolution and Ecology using Yeast and other Model Systems, Poster, Heidelberg, Germany. *Genetics of fitness in dynamic environments*
+
+2014. Single cells genomics, Poster, Stockholm, Sweden.
+
+*Competition between cells in dynamic environments*
+
+2012. Young Researcher in Life Sciences, Talk, 3rd prize, Paris, France.
+
+Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex
+
+2012. LBMC Seminar, Invited speaker, Lyon, France.
+
+Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex
+
+2012. Ver midi, Talk, Paris, France.
+
+Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex
+
+2011. 18th International Worm Meeting, Poster, Los Angeles, USA.
+
+Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex
+
+2010. Neuronal development, synaptic function and behaviour in C. elegans, Poster, Ma- dison, USA.
+
+TMEM-93 is a Conserved Transmembrane Protein Required for Assembly or Stability of Acetylcholine Receptors
+
+2009. 17th International Worm Meeting, Poster, Los Angeles, USA.
+
+TMEM-93 is a Conserved Transmembrane Protein Required for Assembly or Stability of Acetylcholine Receptors
