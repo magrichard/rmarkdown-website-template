@@ -1,17 +1,23 @@
 ---
-title: "About me"
+title: "Teaching"
 ---
 
 
-2016. UGA, grenoble. Statistics (Licence)
+## 2016-2017 
 
-2016. UGA, grenoble. Genetics (Licence)
+UGA, grenoble. Statistics (Licence)
 
-2016. UCB, Lyon. Introduction to research work in genomic (Master).
+UGA, grenoble. Genetics (Licence)
 
-2015. UCB, Lyon. Introduction to research work in genomic (Master).
+## 2015-2016
 
-2015. ENS, Lyon. Practical course of genetics in nematodes (Licence).
+UCB, Lyon. Introduction to research work in genomic (Master)
 
-2008-11. UPMC, Paris. Genetics and Cell biology (Licence).
+UCB, Lyon. Introduction to research work in genomic (Master)
+
+ENS, Lyon. Practical course of genetics in nematodes (Licence)
+
+## 2008-2011
+
+2008-11. UPMC, Paris. Genetics and Cell biology (Licence)
 
