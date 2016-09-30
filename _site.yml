@@ -22,9 +22,6 @@ navbar:
     - text: "CV"
       icon: fa-file-pdf-o
       href: cv.html
-    - text: "Blog"
-      icon: fa-rss
-      href: https://YOURGITHUB.github.io/blog/    # CHANGE HERE 
   right:
     - text: "Contact me"
       icon: fa-envelope-o
