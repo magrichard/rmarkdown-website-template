@@ -2,6 +2,26 @@
 title: "Home"
 ---
 
-## Welcome to my personal website
+## Who am I?
+
+ An experimental and theoritical geneticist
+
+```{r, out.width = "200px", echo=FALSE, fig.align='center'}
+knitr::include_graphics("pictures/mag_cv.png")
+```
+
+
+## What do I do?
+
+### Current 
+
+My actual research project is focused on the genetic and epigenetic regulation of cancer in lung tumors. I recently joined the group of [Daniel Jost](http://membres-timc.imag.fr/Daniel.Jost/DJ-TIMC/Home.html) (BCM Team, TIMC-IMAG). I am developping statistic and physic models to characterize cancer proliferation.
+
+### Previous
+
+I worked at the [Gael Yvert](http://www.ens-lyon.fr/LBMC/gisv/index.php/en/) team in Ecole Normale Supérieure de Lyon as a postdoc from february 2013 to august 2016 in the "Cell modelisation and Biology" laboratory. Our group was interested in inter-individual phenotypic variations, using the yeast Saccharomyces cerevisiae as model system. My main topic of interest was to better undersand the evolution and the regulation of gene networks (using both experimental and theoritical approaches). In parallel, I also investigated the fitness of yeast mutants in dynamic environment using a genomic approach.
+
+I carried out my PhD at the Biology Institute of the ENS Paris on genetics and neurobiology of the worm Caenorhabditis elegans in [Jean-Louis Bessereau](http://www.inmg.fr/en/eq_bessereau.php) team. In particular, I discovered and identified a novel Er complex involved in maturation of transmembrane complexe proteins.
+
 
 

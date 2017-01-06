@@ -7,14 +7,11 @@ navbar:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "About"
-      icon: fa-user 
-      href: about.html
     - text: "Research"
       icon: fa-code-fork  
       href: research.html
     - text: "Teaching"
-      icon: fa-birthday-cake 
+      icon: fa-user  
       href: teaching.html
     - text: "Publication"
       icon: fa-university 

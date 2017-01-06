@@ -3,11 +3,14 @@ title: "Publication"
 ---
 
 
+[ORCID](orcid.org/0000-0003-3165-3218)
+
+
 ## Research article
 
-How does evolution tune biological noise ?
+Exploiting Single-Cell Quantitative Data to Map Genetic Variants Having Probabilistic Effects 
 
-*M. Richard and G. Yvert, Front Genet, 2014.*
+*F. Chuffart, M. Richard, D. Jost, C. Burny, H. Duplus-Bottin, Y. Ohya, G. Yvert, Plos Genet, 2016*
 
 Biosynthesis of ionotropic acetylcholine receptors requires the evolutionarily conserved ER membrane complex.
 
@@ -17,40 +20,62 @@ A Screen for X-linked mutations Affecting Drosophila Photoreceptor Differentia- 
 
 *K. Legent, J. Steinhauer, M. Richard, and J.E. Treisman, Genetics, 2011.*
 
+## Revue
+
+How does evolution tune biological noise ?
+
+*M. Richard and G. Yvert, Front Genet, 2014.*
+
+
 ##Communication at conferences
 
-2015. JOBIM, Poster, Clermont-Ferrand, France.
+###2016
+
+JOBIM, Poster, Lyon, France.
+
+###2015 
+
+JOBIM, Poster, Clermont-Ferrand, France.
 *Identification of fitness advantage in dynamic environment by modelisation of BAR-seq data.*
 
-2014. Quatrièmes Rencontres R, Talk, Grenoble, France.
+###2014 
+
+Quatrièmes Rencontres R, Talk, Grenoble, France.
 *A general method to map single-cell probabilstic trait loci of the genome*
 
-2014. Experimental Approaches to Evolution and Ecology using Yeast and other Model Systems, Poster, Heidelberg, Germany. *Genetics of fitness in dynamic environments*
+Experimental Approaches to Evolution and Ecology using Yeast and other Model Systems, Poster, Heidelberg, Germany. *Genetics of fitness in dynamic environments*
 
-2014. Single cells genomics, Poster, Stockholm, Sweden.
-
+Single cells genomics, Poster, Stockholm, Sweden.
 *Competition between cells in dynamic environments*
 
-2012. Young Researcher in Life Sciences, Talk, 3rd prize, Paris, France.
+###2012 
 
-Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex
+Young Researcher in Life Sciences, Talk, 3rd prize, Paris, France.
 
-2012. LBMC Seminar, Invited speaker, Lyon, France.
+*Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex*
 
-Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex
+LBMC Seminar, Invited speaker, Lyon, France.
 
-2012. Ver midi, Talk, Paris, France.
+*Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex*
 
-Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex
+Ver midi, Talk, Paris, France.
 
-2011. 18th International Worm Meeting, Poster, Los Angeles, USA.
+*Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex*
 
-Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex
+###2011 
 
-2010. Neuronal development, synaptic function and behaviour in C. elegans, Poster, Ma- dison, USA.
+18th International Worm Meeting, Poster, Los Angeles, USA.
 
-TMEM-93 is a Conserved Transmembrane Protein Required for Assembly or Stability of Acetylcholine Receptors
+*Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex*
 
-2009. 17th International Worm Meeting, Poster, Los Angeles, USA.
+###2010 
 
-TMEM-93 is a Conserved Transmembrane Protein Required for Assembly or Stability of Acetylcholine Receptors
+Neuronal development, synaptic function and behaviour in C. elegans, Poster, Ma- dison, USA.
+
+*TMEM-93 is a Conserved Transmembrane Protein Required for Assembly or Stability of Acetylcholine Receptors*
+
+###2009 
+
+17th International Worm Meeting, Poster, Los Angeles, USA.
+
+*TMEM-93 is a Conserved Transmembrane Protein Required for Assembly or Stability of Acetylcholine Receptors*
