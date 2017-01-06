@@ -4,7 +4,7 @@ title: "Home"
 
 ## Who am I?
 
- An experimental and theoritical geneticist
+A computional biologist.
 
 ```{r, out.width = "200px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("pictures/mag_cv.png")

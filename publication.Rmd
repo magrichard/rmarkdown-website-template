@@ -8,23 +8,23 @@ title: "Publication"
 
 ## Research article
 
-Exploiting Single-Cell Quantitative Data to Map Genetic Variants Having Probabilistic Effects 
+3) Exploiting Single-Cell Quantitative Data to Map Genetic Variants Having Probabilistic Effects 
 
-*F. Chuffart, M. Richard, D. Jost, C. Burny, H. Duplus-Bottin, Y. Ohya, G. Yvert, Plos Genet, 2016*
+*F. Chuffart, **M. Richard**, D. Jost, C. Burny, H. Duplus-Bottin, Y. Ohya, G. Yvert, Plos Genet, 2016*
 
-Biosynthesis of ionotropic acetylcholine receptors requires the evolutionarily conserved ER membrane complex.
+2) Biosynthesis of ionotropic acetylcholine receptors requires the evolutionarily conserved ER membrane complex.
 
-*M. Richard, T. Boulin, V. Robert, J. Richmond, and J-L. Bessereau, PNAS, 2013.*
+***M. Richard**, T. Boulin, V. Robert, J. Richmond, and J-L. Bessereau, PNAS, 2013.*
 
-A Screen for X-linked mutations Affecting Drosophila Photoreceptor Differentia- tion Identifies Casein Kinase 1α as an Essential Negative Regulator of Wingless Signaling.
+1) A Screen for X-linked mutations Affecting Drosophila Photoreceptor Differentia- tion Identifies Casein Kinase 1α as an Essential Negative Regulator of Wingless Signaling.
 
-*K. Legent, J. Steinhauer, M. Richard, and J.E. Treisman, Genetics, 2011.*
+*K. Legent, J. Steinhauer, **M. Richard**, and J.E. Treisman, Genetics, 2011.*
 
 ## Revue
 
-How does evolution tune biological noise ?
+1) How does evolution tune biological noise ?
 
-*M. Richard and G. Yvert, Front Genet, 2014.*
+***M. Richard** and G. Yvert, Front Genet, 2014.*
 
 
 ##Communication at conferences
@@ -35,13 +35,19 @@ JOBIM, Poster, Lyon, France.
 
 ###2015 
 
-JOBIM, Poster, Clermont-Ferrand, France.
-*Identification of fitness advantage in dynamic environment by modelisation of BAR-seq data.*
+Design optimization and control in system and synthetic biology, Poster, Paris, France.
+*Functional Genetic Diversity of the Yeast Galactose Network*
 
-###2014 
+BCM Seminar, Invited speaker, Grenoble, France. 
+*Functional Genetic Diversity of the Yeast Galactose Network*
+
+JOBIM, Poster, Clermont-Ferrand.
+*Identification of fitness advantage in dynamic environment by modelisation of BAR-seq data*
 
 Quatrièmes Rencontres R, Talk, Grenoble, France.
 *A general method to map single-cell probabilstic trait loci of the genome*
+
+###2014 
 
 Experimental Approaches to Evolution and Ecology using Yeast and other Model Systems, Poster, Heidelberg, Germany. *Genetics of fitness in dynamic environments*
 
