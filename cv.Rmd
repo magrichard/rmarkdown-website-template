@@ -2,5 +2,5 @@
 title: "CV"
 ---
 
-<a href="cv_mag2017french.pdf#" class="download" title="Download CV as PDF">Download CV (in french)</a>			
+<a href="CV.pdf#" class="download" title="Download CV as PDF">Download CV (in french)</a>			
 
