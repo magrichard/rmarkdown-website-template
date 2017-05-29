@@ -4,7 +4,7 @@ title: "About"
 
 ## Who am I?
 
- An experimental and theoritical geneticist
+A computational biologist specialized in experimental and theoritical genetic.
 
 ```{r, out.width = "200px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("pictures/mag_cv.png")
