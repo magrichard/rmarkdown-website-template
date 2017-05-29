@@ -8,30 +8,33 @@ title: "Publication"
 
 ## Research article
 
-3) Exploiting Single-Cell Quantitative Data to Map Genetic Variants Having Probabilistic Effects 
+[6] **Richard, M.**, Chuffart, F, Duplus-Bottin, H., Pouyet, F., Spichty, M., Fulcrand, E., Entrevan, M., Barthelaix, A., Springer, M., Jost, D., and G. Yvert , G. (2017). Assigning function to natural allelic variation via dynamic modeling of gene network induction. bioRxiv 140467. [Click](https://doi.org/10.1101/140467) or [PDF](140467.full.pdf)
 
-*F. Chuffart, **M. Richard**, D. Jost, C. Burny, H. Duplus-Bottin, Y. Ohya, G. Yvert, Plos Genet, 2016*
+[5] Salignon #, J., **Richard #, M.**, Fulcrand, E., & Yvert, G. (2017) Unexpected selection in fluctuating environments. bioRxiv 129163. [Click](https://doi.org/10.1101/129163) or [PDF](129163.full.pdf)
 
-2) Biosynthesis of ionotropic acetylcholine receptors requires the evolutionarily conserved ER membrane complex.
+[4] Chuffart, F., **Richard, M.**, Jost, D., Burny, C., Duplus-Bottin, H., Ohya, Y., & Yvert, G. (2016). Exploiting Single-Cell Quantitative Data to Map Genetic Variants Having Probabilistic Effects. PLoS Genetics, 12(8), e1006213. [Click](http://doi.org/10.1371/journal.pgen.1006213) or [PDF](PLoS Genetics 2016 Chuffart.pdf)
 
-***M. Richard**, T. Boulin, V. Robert, J. Richmond, and J-L. Bessereau, PNAS, 2013.*
+[3] **Richard, M.** & Yvert, G. L. How does evolution tune biological noise? Front. Genet. 5, 1011 (2014). [Click](http://doi.org/10.3389/fgene.2014.00374) or [PDF](frontiers.pdf)
 
-1) A Screen for X-linked mutations Affecting Drosophila Photoreceptor Differentia- tion Identifies Casein Kinase 1α as an Essential Negative Regulator of Wingless Signaling.
+[2] **Richard, M.**, Boulin, T., Robert, V. J. P., Richmond, J. E., & Bessereau, J.-L. (2013). Biosynthesis of ionotropic acetylcholine receptors requires the evolutionarily conserved ER membrane complex. Proceedings of the National Academy of Sciences of the United States of America, 110(11), E1055–63. [Click](http://doi.org/10.1073/pnas.1216154110) or [PDF](pnas.pdf)
 
-*K. Legent, J. Steinhauer, **M. Richard**, and J.E. Treisman, Genetics, 2011.*
-
-## Revue
-
-1) How does evolution tune biological noise ?
-
-***M. Richard** and G. Yvert, Front Genet, 2014.*
+[1] Legent, K., Steinhauer, J., **Richard, M.**, & Treisman, J. E. (2012). A screen for X-linked mutations affecting Drosophila photoreceptor differentiation identifies Casein kinase 1α as an essential negative regulator of wingless signaling. Genetics, 190(2), 601–616. [Click](http://doi.org/10.1534/genetics.111.133827) or [PDF](genetics.pdf)
 
 
 ##Communication at conferences
 
+###2017
+
+Epigenetics and Cancer, Poster, Heidelberg, Allemagne.
+*Identifying epigenetic hotspots in lung cancer*
+
+Advanced lecture course on computational systems biology, Talk, Aussois, France. 
+*Functional Genetic Diversity of the Yeast Galactose Network*
+
 ###2016
 
 JOBIM, Poster, Lyon, France.
+*Functional Genetic Diversity of the Yeast Galactose Network*
 
 ###2015 
 
