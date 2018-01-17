@@ -2,8 +2,19 @@
 title: "Teaching"
 ---
 
+***
 
-## 2016-2017 
+## DATA CHALLENGE
+
+Sophie Achard, Dylan Aïssi, Michael Blum, Kevin Caye, Florent Chuffart, Olivier François, Keurcien Luu, Florian Privé and Magali Richard. (2017). 
+
+Retour d’expérience concernant le data challenge épigénétique et médiation à large échelle d’Aussois (2018). [CFIES](http://cfies2017.sfds.asso.fr/). [PDF](data_challenge_CFIES_2017.pdf)
+
+***
+
+## COURSES
+
+### 2016-2017 
 
 ENSIMAG, grenoble. Statistics (Master)
 
@@ -11,7 +22,7 @@ UGA, grenoble. Statistics (Licence)
 
 UGA, grenoble. Genetics (Licence)
 
-## 2015-2016
+### 2015-2016
 
 UCB, Lyon. Introduction to research work in genomic (Master)
 
@@ -19,7 +30,7 @@ UCB, Lyon. Introduction to research work in genomic (Master)
 
 ENS, Lyon. Practical course of genetics in nematodes (Licence)
 
-## 2008-2011
+### 2008-2011
 
 2008-11. UPMC, Paris. Genetics and Cell biology (Licence)
 

@@ -4,7 +4,7 @@
 
 <head>
 
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -31,10 +31,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -184,6 +186,13 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
+  <a href="about.html">
+    <span class="fa fa-info"></span>
+     
+    About
+  </a>
+</li>
+<li>
   <a href="research.html">
     <span class="fa fa-code-fork"></span>
      
@@ -221,6 +230,13 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
+  <a href="https://twitter.com/magg_richard">
+    <span class="fa fa-twitter"></span>
+     
+    Twitter
+  </a>
+</li>
+<li>
   <a href="https://github.com/magrichard">
     <span class="fa fa-github"></span>
      
@@ -241,23 +257,43 @@ $(document).ready(function () {
 </div>
 
 
-<div id="discovery-and-modeling-of-epigenetically-regulated-genomic-domains-in-lung-cancer" class="section level2">
-<h2>Discovery and modeling of epigenetically regulated genomic domains in lung cancer</h2>
-<p>Scientific background: Recent investigations of the cancer cell epigenome are now highlighting a central role played by epigenetics in malignant transformation. In particular, aberrant gene activity of tumor-suppressor or tissue-specific genes can be directly associated to modifications of the epigenome. While an increasing amount of genome-wide data is accumulating, a main challenge in cancer systems biology remains to understand and propose a unifying quantitative model unraveling the fundamental rules that link the epigenetic deregulations to gene expression and hence to specific cancer phenotypes.</p>
-<p>Description of the project: We propose here to develop an interdisciplinary strategy to investigate the interplay between genomic, epigenomic and transcriptomic alterations in the context of lung cancer. Combining statistical analysis and quantitative mathematical modeling with molecular biology experiments on specific cell lines and on tumors, we aim at discovering epigenetically regulated genomic domains in lung cancer, as well as at characterizing and modeling these epigenetic “hot” domains and their association with tumor progression and aggressiveness.</p>
-<p>Development of a challenging mathematical model of epigenetic regulations, trained on experimental data, will be used to infer failures in the epigenetic maintenance mechanisms that lead to the deregulation of the “hot” domains. Results obtained for lung tumors will be correlated with clinical data (prognosis, lung cancer origin, treatment response, etc.) allowing for the discovery of new oncogenic mechanisms and epigenetic biomarkers and would open the door for the establishment of new anti-cancer therapeutic strategies.</p>
+<style>
+.column-left{
+  float: left;
+  width: 33%;
+  text-align: left;
+}
+.column-center{
+  display: inline-block;
+  width: 33%;
+  text-align: center;
+}
+.column-right{
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+</style>
+<hr />
+<div id="lucah-intra-tumour-heterogeneity-in-the-context-of-lung-cancer" class="section level2">
+<h2>LuCaH: Intra-tumour Heterogeneity in the context of Lung Cancer</h2>
+<div class="column-right">
+<p><img src="pictures/FIG1.png" width="500px" style="display: block; margin: auto;" /></p>
 </div>
-<div id="understanding-functional-genetic-diversity-within-regulatory-networks" class="section level2">
-<h2>Understanding functional genetic diversity within regulatory networks</h2>
-<p>Optimizing growth and survival in face of an environmental signal is a major challenge for single-cell organisms. To adapt the new environment and respond to external stimuli, many cells operate a genetic switch, during which groups of genes are activated of repressed. This type of cellular response has been extensively studied at steady state but the dynamical behaviour of regulatory networks remains poorly understood. The yeast galactose regulatory network is a well-characterized standard model system which offers the possibility to investigate the dynamic regulation of the network at a very fine dynamic scale. Our work aimed to develop a dynamic modeling of network inducibility in order to better understand the nature of the galactose response and to explore how natural genetic variations affect the network inducibility.</p>
-<p>We addressed those questions by integrating both experimental and theoretical approaches, taking advantage of the well-defined galactose network. The high complexity of galactose network interactions makes systematic analysis of the effect of polygenic natural variations highly challenging. To bypass this issue, we decided to focus our work on natural variations present in the GAL3 locus, which is the core component of the regulatory response. First, we experimentally characterized the dynamic activation of the network in isogenic cell population, except for GAL3. We observed that natural variation in GAL3 loci is sufficient to convert a dynamically graded response into a transient probabilistic bimodal response. Second, we used this time course experiments to develop a predictive quantitative model of the system inducibility. A comprehensive analysis of the model indicated that natural variations of GAL3 play on two key parameters controlling the network dynamical behaviour: the association constant of galactose to Gal3p and the regulatory strength of Gal3p on Gal80. Finally, we demonstrated that our model is predictive of the effect of single genetic mutations at a broad range of galactose concentration. Together, these results provide a quantitative understanding of the galactose network dynamic response and allow us to better characterize the functional effect of genetic diversity on the system.</p>
-<p><img src="pictures/galONOFF.png" width="800px" style="display: block; margin: auto;" /></p>
+<p>Since the recent development of high-throughput sequencing technologies, cancer research has focused on characterizing the genetic and epigenetic changes that contribute to the disease. However, these studies well often neglect the fact that tumours are constituted of cells with different identities and origins (cell heterogeneity). Intra-tumour heterogeneity is a key player in cancer development and resistance to therapeutic treatments.</p>
+<p>A major challenge for current research in oncology is to integrate data and existing information into a model that takes into account intra- tumour heterogeneity. Such approach would offer a better understanding of the biological mechanisms involved in the evolution of cancer cells, which will improve the development of adapted therapeutic strategies.</p>
+<p>In the LuCaH project, I propose to address this challenge by establishing an original analytical framework for the study and analysis of complex biological data derived from tumours, and to provide a novel type of information about intra-tumour heterogeneity and cancer virulence.</p>
+<hr />
 </div>
-<div id="genomic-profiling-of-cell-proliferation-in-a-periodic-environment" class="section level2">
-<h2>Genomic profiling of cell proliferation in a periodic environment</h2>
-<p>Under natural selection, the fixation of a mutation is determined by its impact on fitness (the ability to reproduce), which is tightly linked to environmental conditions. Because natural environments are dynamic, how mutations are selected in fluctuating conditions is a crucial and yet unsolved question. In particular, under repeated exposures to two or more conditions, is fitness averaged over time? This question has been approached by theory1–7 but, so far, not experimentally.</p>
-<p>Here, we applied barcode sequencing to the model yeast S. cerevisiae and measured the fitness contribution of 3,568 genes in a periodic environment that oscillated between two saline conditions. We estimate that the fitness of about 2,000 genes in the periodic regime deviated significantly from the time-averaged expectation. This deviation, together with the population variance in fitness, depended on the dynamics of fluctuations. Strikingly, environmental oscillations favored the loss of several genes, including a repressor of the cAMP/PKA pathway and a regulator of protein translocation to mitochondria. This genomic profiling reveals that selection in dynamic environments can not always be predicted from the selection observed in steady conditions, and it identifies vulnerabilities to environmental dynamics in molecular pathways that are conserved across eucaryotes.</p>
-<p><img src="pictures/pleiotropy.png" width="800px" style="display: block; margin: auto;" /></p>
+<div id="epilung-discovery-and-modeling-of-epigenetically-regulated-genomic-domains-in-lung-cancer" class="section level2">
+<h2>EpiLung: Discovery and modeling of epigenetically regulated genomic domains in lung cancer</h2>
+<div class="column-right">
+<p><img src="pictures/pipeline.png" width="500px" style="display: block; margin: auto;" /></p>
+</div>
+<p>Recent investigations of the cancer cell epigenome are now highlighting a central role played by epigenetics in malignant transformation. In particular, aberrant gene activity of tumor-suppressor or tissue-specific genes can be directly associated to modifications of the epigenome.</p>
+<p>While an increasing amount of genome-wide data is accumulating, a main challenge in cancer systems biology remains to understand and propose a unifying quantitative model unraveling the fundamental rules that link the epigenetic deregulations to gene expression and hence to specific cancer phenotypes.</p>
+<p>We propose to develop an interdisciplinary strategy to investigate the interplay between genomic, epigenomic and transcriptomic alterations in the context of lung cancer.</p>
+<p>Combining statistical analysis and quantitative mathematical modeling with molecular biology experiments on specific cell lines and on tumors, we aim at discovering epigenetically regulated genomic domains in lung cancer, as well as at characterizing and modeling these epigenetic “hot” domains and their association with tumor progression and aggressiveness.</p>
 </div>
 
 
@@ -283,7 +319,7 @@ $(document).ready(function () {
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>

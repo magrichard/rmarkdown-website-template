@@ -4,7 +4,7 @@
 
 <head>
 
-<meta charset="utf-8">
+<meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
 
@@ -20,8 +20,8 @@
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
-<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
 <link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
@@ -31,10 +31,12 @@
   }
 </style>
 <script type="text/javascript">
-if (window.hljs && document.readyState && document.readyState === "complete") {
-   window.setTimeout(function() {
-      hljs.initHighlighting();
-   }, 0);
+if (window.hljs) {
+  hljs.configure({languages: []});
+  hljs.initHighlightingOnLoad();
+  if (document.readyState && document.readyState === "complete") {
+    window.setTimeout(function() { hljs.initHighlighting(); }, 0);
+  }
 }
 </script>
 
@@ -184,6 +186,13 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
+  <a href="about.html">
+    <span class="fa fa-info"></span>
+     
+    About
+  </a>
+</li>
+<li>
   <a href="research.html">
     <span class="fa fa-code-fork"></span>
      
@@ -221,6 +230,13 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
+  <a href="https://twitter.com/magg_richard">
+    <span class="fa fa-twitter"></span>
+     
+    Twitter
+  </a>
+</li>
+<li>
   <a href="https://github.com/magrichard">
     <span class="fa fa-github"></span>
      
@@ -241,21 +257,36 @@ $(document).ready(function () {
 </div>
 
 
-<div id="who-am-i" class="section level2">
-<h2>Who am I?</h2>
-<p>A computional biologist.</p>
+<style>
+.column-left{
+  float: left;
+  width: 70%;
+  text-align: left;
+}
+.column-right{
+  float: right;
+  width: 30%;
+  text-align: right;
+}
+</style>
+<div class="column-left">
+<p>I am a computational biologist specialized in experimental and theoritical genetic.</p>
+<p>In January 2018, I was recruited by the <a href="https://data-institute.univ-grenoble-alpes.fr/">Data Institute</a> of the University Grenoble Alpes as a Junior Researcher in Data Science for Life Sciences.</p>
+<p><img src="pictures/data.png" width="500px" style="display: block; margin: auto auto auto 0;" /></p>
+</div>
+<div class="column-right">
 <p><img src="pictures/mag_cv.png" width="200px" style="display: block; margin: auto;" /></p>
 </div>
-<div id="what-do-i-do" class="section level2">
-<h2>What do I do?</h2>
-<div id="current" class="section level3">
-<h3>Current</h3>
-<p>My actual research project is focused on the genetic and epigenetic regulation of cancer in lung tumors. I recently joined the group of <a href="http://membres-timc.imag.fr/Daniel.Jost/DJ-TIMC/Home.html">Daniel Jost</a> (BCM Team, TIMC-IMAG). I am developping statistic and physic models to characterize cancer proliferation.</p>
+<div id="latest-news" class="section level2">
+<h2>Latest News</h2>
+<hr />
+<p>We are always looking for motivated master students. Don’t hesitate to contact me with your CV and interests.</p>
+<hr />
+<div class="column-left">
+<p>Join our <a href="https://r-in-grenoble.github.io/index.html">R-in-grenoble</a> R-user group and assist to our thursday afternoon training sessions!</p>
 </div>
-<div id="previous" class="section level3">
-<h3>Previous</h3>
-<p>I worked at the <a href="http://www.ens-lyon.fr/LBMC/gisv/index.php/en/">Gael Yvert</a> team in Ecole Normale Supérieure de Lyon as a postdoc from february 2013 to august 2016 in the “Cell modelisation and Biology” laboratory. Our group was interested in inter-individual phenotypic variations, using the yeast Saccharomyces cerevisiae as model system. My main topic of interest was to better undersand the evolution and the regulation of gene networks (using both experimental and theoritical approaches). In parallel, I also investigated the fitness of yeast mutants in dynamic environment using a genomic approach.</p>
-<p>I carried out my PhD at the Biology Institute of the ENS Paris on genetics and neurobiology of the worm Caenorhabditis elegans in <a href="http://www.inmg.fr/en/eq_bessereau.php">Jean-Louis Bessereau</a> team. In particular, I discovered and identified a novel Er complex involved in maturation of transmembrane complexe proteins.</p>
+<div class="column-right">
+<p><img src="pictures/LOGO-R-in-grenoble_couleur.png" width="100px" style="display: block; margin: auto;" /></p>
 </div>
 </div>
 
@@ -282,7 +313,7 @@ $(document).ready(function () {
   (function () {
     var script = document.createElement("script");
     script.type = "text/javascript";
-    script.src  = "https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
     document.getElementsByTagName("head")[0].appendChild(script);
   })();
 </script>

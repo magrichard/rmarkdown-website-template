@@ -1,14 +1,12 @@
 ---
-title: "Publication"
+title: "Publications, software development and scientific communication"
 ---
 
+[ORCID](https://orcid.org/0000-0003-3165-3218)
 
-[ORCID](orcid.org/0000-0003-3165-3218)
+## Research articles
 
-
-## Research article
-
-[6] **Richard, M.**, Chuffart, F, Duplus-Bottin, H., Pouyet, F., Spichty, M., Fulcrand, E., Entrevan, M., Barthelaix, A., Springer, M., Jost, D., and G. Yvert , G. (2017). Assigning function to natural allelic variation via dynamic modeling of gene network induction. bioRxiv 140467. [Click](https://doi.org/10.1101/140467) or [PDF](140467.full.pdf)
+[6] **Richard, M.**, Chuffart, F, Duplus-Bottin, H., Pouyet, F., Spichty, M., Fulcrand, E., Entrevan, M., Barthelaix, A., Springer, M., Jost, D., and G. Yvert , G. (2017). Assigning function to natural allelic variation via dynamic modeling of gene network induction. Molecular Systems Biology (2018) 14, e7803. [Click](https://doi.org/10.15252/msb.20177803) or [PDF](msbgal3.full.pdf)
 
 [5] Salignon #, J., **Richard #, M.**, Fulcrand, E., & Yvert, G. (2017) Unexpected selection in fluctuating environments. bioRxiv 129163. [Click](https://doi.org/10.1101/129163) or [PDF](129163.full.pdf)
 
@@ -20,71 +18,61 @@ title: "Publication"
 
 [1] Legent, K., Steinhauer, J., **Richard, M.**, & Treisman, J. E. (2012). A screen for X-linked mutations affecting Drosophila photoreceptor differentiation identifies Casein kinase 1α as an essential negative regulator of wingless signaling. Genetics, 190(2), 601–616. [Click](http://doi.org/10.1534/genetics.111.133827) or [PDF](genetics.pdf)
 
+## R packages
+
+4/ [dmprocr](https://github.com/bcm-uga/dmprocr) (2017) P. Terzian, F. Chuffart, D. Jost & **M. Richard**. R package to perform differential methylation profiles clustering. 
+
+3/ [penda](https://github.com/bcm-uga/penda) (2017) D. Jost & **M. Richard**. R package to calculate personalized differential analysis of omics data. En développement. 
+
+2/ [facsticor](https://github.com/magrichard/facsticor) (2015) D. Jost & **M. Richard**. R package to calculate personalized differential analysis of omics data. 
+
+1/ [h4decoder5](https://github.com/magrichard/h4decoder5) (2013) **M. Richard**. R package to generate error-correcting DNA barcodes.
+
 
 ##Communication at conferences
 
-###2017
+####2017
 
-Epigenetics and Cancer, Poster, Heidelberg, Allemagne.
-*Identifying epigenetic hotspots in lung cancer*
+Epigenetics and Cancer, Poster, Heidelberg, Allemagne.*Identifying epigenetic hotspots in lung cancer*
 
-Advanced lecture course on computational systems biology, Talk, Aussois, France. 
-*Functional Genetic Diversity of the Yeast Galactose Network*
+Advanced lecture course on computational systems biology, Talk, Aussois, France. *Functional Genetic Diversity of the Yeast Galactose Network*
 
-###2016
+####2016
 
-JOBIM, Poster, Lyon, France.
-*Functional Genetic Diversity of the Yeast Galactose Network*
+JOBIM, Poster, Lyon, France. *Functional Genetic Diversity of the Yeast Galactose Network*
 
-###2015 
+####2015 
 
-Design optimization and control in system and synthetic biology, Poster, Paris, France.
-*Functional Genetic Diversity of the Yeast Galactose Network*
+Design optimization and control in system and synthetic biology, Poster, Paris, France. *Functional Genetic Diversity of the Yeast Galactose Network*
 
-BCM Seminar, Invited speaker, Grenoble, France. 
-*Functional Genetic Diversity of the Yeast Galactose Network*
+BCM Seminar, Invited speaker, Grenoble, France. *Functional Genetic Diversity of the Yeast Galactose Network*
 
-JOBIM, Poster, Clermont-Ferrand.
-*Identification of fitness advantage in dynamic environment by modelisation of BAR-seq data*
+JOBIM, Poster, Clermont-Ferrand. *Identification of fitness advantage in dynamic environment by modelisation of BAR-seq data*
 
-Quatrièmes Rencontres R, Talk, Grenoble, France.
-*A general method to map single-cell probabilstic trait loci of the genome*
+Quatrièmes Rencontres R, Talk, Grenoble, France. *A general method to map single-cell probabilstic trait loci of the genome*
 
-###2014 
+####2014 
 
 Experimental Approaches to Evolution and Ecology using Yeast and other Model Systems, Poster, Heidelberg, Germany. *Genetics of fitness in dynamic environments*
 
-Single cells genomics, Poster, Stockholm, Sweden.
-*Competition between cells in dynamic environments*
+Single cells genomics, Poster, Stockholm, Sweden. *Competition between cells in dynamic environments*
 
-###2012 
+####2012 
 
-Young Researcher in Life Sciences, Talk, 3rd prize, Paris, France.
+Young Researcher in Life Sciences, Talk, 3rd prize, Paris, France. *Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex*
 
-*Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex*
+LBMC Seminar, Invited speaker, Lyon, France. *Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex*
 
-LBMC Seminar, Invited speaker, Lyon, France.
+Ver midi, Talk, Paris, France. *Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex*
 
-*Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex*
+####2011 
 
-Ver midi, Talk, Paris, France.
+18th International Worm Meeting, Poster, Los Angeles, USA. *Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex*
 
-*Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex*
+####2010 
 
-###2011 
+Neuronal development, synaptic function and behaviour in C. elegans, Poster, Ma- dison, USA. *TMEM-93 is a Conserved Transmembrane Protein Required for Assembly or Stability of Acetylcholine Receptors*
 
-18th International Worm Meeting, Poster, Los Angeles, USA.
+####2009 
 
-*Control of acetylcholine receptor maturation and ER homeostasis by a new transmembrane complex*
-
-###2010 
-
-Neuronal development, synaptic function and behaviour in C. elegans, Poster, Ma- dison, USA.
-
-*TMEM-93 is a Conserved Transmembrane Protein Required for Assembly or Stability of Acetylcholine Receptors*
-
-###2009 
-
-17th International Worm Meeting, Poster, Los Angeles, USA.
-
-*TMEM-93 is a Conserved Transmembrane Protein Required for Assembly or Stability of Acetylcholine Receptors*
+17th International Worm Meeting, Poster, Los Angeles, USA. *TMEM-93 is a Conserved Transmembrane Protein Required for Assembly or Stability of Acetylcholine Receptors*
