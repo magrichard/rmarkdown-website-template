@@ -15,11 +15,6 @@ title: "About"
 </style>
 
 
-
-A computational biologist specialized in experimental and theoritical genetic.
-
-
-
 <div class="column-left">
 I am a computational biologist specialized in experimental and theoritical genetic. 
 
@@ -42,7 +37,7 @@ knitr::include_graphics("pictures/mag_cv.png")
 
 ***
 
-### Previous
+### Previous jobs
 
 I carried out my PhD at the Biology Institute of the ENS Paris on genetics and neurobiology of the worm Caenorhabditis elegans in [Jean-Louis Bessereau team](http://www.inmg.fr/fr/eq_bessereau.php). In particular, I discovered and identified a novel Er complex involved in maturation of transmembrane complexe proteins.
 

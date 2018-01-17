@@ -8,16 +8,16 @@ navbar:
       icon: fa-home
       href: index.html
     - text: "About"
-      icon: fa-info
+      icon: fa-user
       href: about.html
     - text: "Research"
       icon: fa-code-fork  
       href: research.html
     - text: "Teaching"
-      icon: fa-user  
+      icon: fa-line-chart  
       href: teaching.html
     - text: "Publication"
-      icon: fa-university 
+      icon: fa-institution 
       href: publication.html
     - text: "CV"
       icon: fa-file-pdf-o
