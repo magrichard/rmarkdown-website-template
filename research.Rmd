@@ -22,7 +22,7 @@ title: "Research projects"
 
 ***
 
-## LuCaH: Intra-tumour Heterogeneity in the context of Lung Cancer
+## LuCaH: Intra-tumour **H**eterogeneity in the context of **Lu**ng **Ca**ncer
 
 <div class="column-right">
 ```{r, out.width = "500px", echo=FALSE, fig.align='center'}
@@ -38,7 +38,7 @@ knitr::include_graphics("pictures/FIG1.png")
 
 ***
 
-## EpiLung: Discovery and modeling of epigenetically regulated genomic domains in lung cancer
+## EpiLung: Discovery and modeling of **Epi**genetically regulated genomic domains in **Lung** cancer
 
 <div class="column-right">
 ```{r, out.width = "500px", echo=FALSE, fig.align='center'}
