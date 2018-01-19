@@ -29,7 +29,7 @@ title: "Publications, software development and scientific communication"
 1/ [h4decoder5](https://github.com/magrichard/h4decoder5) (2013) **M. Richard**. R package to generate error-correcting DNA barcodes.
 
 
-##Communication at conferences
+##Conferences
 
 ####2017
 
