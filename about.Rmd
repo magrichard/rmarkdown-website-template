@@ -16,7 +16,7 @@ title: "About"
 
 
 <div class="column-left">
-I am a computational biologist specialized in experimental and theoritical genetic. 
+I am a computational biologist specialized in experimental and theoritical genetics. 
 
 In January 2018, I was recruited by the [Data Institute](https://data-institute.univ-grenoble-alpes.fr/) of the University Grenoble Alpes as a Junior Researcher in Data Science for Life Sciences.
 
