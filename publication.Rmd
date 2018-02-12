@@ -6,7 +6,7 @@ title: "Publications, software development and scientific communication"
 
 ## Research articles
 
-[6] Salignon #, J., **Richard #, M.**, Fulcrand, E., Duplus-Bottin, H. & Yvert, G. (2018) Unexpected selection in fluctuating environments. In press at Molecular Systems Biology. [Click](https://doi.org/10.1101/129163) or [PDF](129163.full.pdf)
+[6] Salignon #, J., **Richard #, M.**, Fulcrand, E., Duplus-Bottin, H. & Yvert, G. (2018) Unexpected selection in fluctuating environments. Molecular Systems Biology. [Click](https://doi.org/10.1101/129163) or [PDF](129163.full.pdf)
 
 [5] **Richard, M.**, Chuffart, F, Duplus-Bottin, H., Pouyet, F., Spichty, M., Fulcrand, E., Entrevan, M., Barthelaix, A., Springer, M., Jost, D., and G. Yvert , G. (2018). Assigning function to natural allelic variation via dynamic modeling of gene network induction. Molecular Systems Biology, 14, e7803. [Click](https://doi.org/10.15252/msb.20177803) or [PDF](msbgal3.full.pdf)
 
@@ -22,9 +22,9 @@ title: "Publications, software development and scientific communication"
 
 4/ [dmprocr](https://github.com/bcm-uga/dmprocr) (2017) P. Terzian, F. Chuffart, D. Jost & **M. Richard**. R package to perform differential methylation profiles clustering. 
 
-3/ [penda](https://github.com/bcm-uga/penda) (2017) D. Jost & **M. Richard**. R package to calculate personalized differential analysis of omics data. En développement. 
+3/ [penda](https://github.com/bcm-uga/penda) (2017) D. Jost & **M. Richard**. R package to calculate personalized differential analysis of omics data.  
 
-2/ [facsticor](https://github.com/magrichard/facsticor) (2015) D. Jost & **M. Richard**. R package to calculate personalized differential analysis of omics data. 
+2/ [facsticor](https://github.com/magrichard/facsticor) (2015) ) F. Chuffart, G. Yvert & **M. Richard**. R method to analyse flow cytometry single cell data during time course experiments.
 
 1/ [h4decoder5](https://github.com/magrichard/h4decoder5) (2013) **M. Richard**. R package to generate error-correcting DNA barcodes.
 

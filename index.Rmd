@@ -40,14 +40,25 @@ knitr::include_graphics("pictures/mag_cv.png")
 
 ## Latest News
 
+***
+
+**Feb 2018** : Be prepared for the next *<span style="color:red">Data Challenge Cancer & Deconvolution</span>*, which will take place in the Alps (Aussois) in December 2018. 
+
+More information coming soon... 
+
 
 ***
 
-We are always looking for motivated master students. Don't hesitate to contact me with your CV and interests. 
+**Feb 2018** : Welcome to *<span style="color:red">Clémentine</span>*, who recently joined the team for a master internship. 
 
 ***
+
+**Sept 2017** : We are looking for motivated master students. Don't hesitate to contact us with your CV and interests. 
+
+***
+
 <div class="column-left">
-Join our [R-in-grenoble](https://r-in-grenoble.github.io/index.html) R-user group and assist to our thursday afternoon training sessions!
+**2017-2018** : Join our [R-in-grenoble](https://r-in-grenoble.github.io/index.html) R-user group and assist to our thursday afternoon training sessions!
 </div>
 
 <div class="column-right">
