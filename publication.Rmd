@@ -6,7 +6,7 @@ title: "Publications, software development and scientific communication"
 
 ## Research articles
 
-[6] Salignon #, J., **Richard #, M.**, Fulcrand, E., Duplus-Bottin, H. & Yvert, G. (2018) Unexpected selection in fluctuating environments. Molecular Systems Biology. [Click](https://doi.org/10.1101/129163) or [PDF](129163.full.pdf)
+[6] Salignon #, J., **Richard #, M.**, Fulcrand, E., Duplus-Bottin, H. & Yvert, G. (2018) Unexpected selection in fluctuating environments. Molecular Systems Biology (In press). [PDF](fluctu.pdf)
 
 [5] **Richard, M.**, Chuffart, F, Duplus-Bottin, H., Pouyet, F., Spichty, M., Fulcrand, E., Entrevan, M., Barthelaix, A., Springer, M., Jost, D., and G. Yvert , G. (2018). Assigning function to natural allelic variation via dynamic modeling of gene network induction. Molecular Systems Biology, 14, e7803. [Click](https://doi.org/10.15252/msb.20177803) or [PDF](msbgal3.full.pdf)
 
