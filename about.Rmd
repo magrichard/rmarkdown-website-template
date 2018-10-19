@@ -18,7 +18,7 @@ title: "About"
 <div class="column-left">
 I am a computational biologist specialized in experimental and theoritical genetics. 
 
-In January 2018, I was recruited by the [Data Institute](https://data-institute.univ-grenoble-alpes.fr/) of the University Grenoble Alpes as a Junior Researcher in Data Science for Life Sciences.
+In October 2018, I was recruited by the CNRS as a research associate (CRCN). I am currently working at the [TIMC-IMAG](https://www-timc.imag.fr/) laboratory in the [BCM](https://www-timc.imag.fr/BCM) team.
 
 
 ```{r, out.width = "500px", echo=FALSE, fig.align='left'}
@@ -44,5 +44,8 @@ I carried out my PhD at the Biology Institute of the ENS Paris on genetics and n
 I worked at the [Gael Yvert](http://www.ens-lyon.fr/LBMC/gisv/index.php/fr/) team in Ecole Normale Supérieure de Lyon as a postdoc from february 2013 to august 2016 in the "Cell modelisation and Biology" laboratory. During this postdoc, I have developped experimental and quantitative genetics approaches to study the genetic regulation of cell behavior in yeast.
 
 My secong postdoc (from sept 2016 to dec 2017) was focused on the genetic and epigenetic regulation of cancer in lung tumors. I joined the group of [Daniel Jost](http://membres-timc.imag.fr/Daniel.Jost/DJ-TIMC/Home.html) (BCM Team, TIMC-IMAG) and the EpiLung consortium to develop statistic and physic models on the regulation of cancer proliferation.
+
+In January 2018, I was recruited by the [Data Institute](https://data-institute.univ-grenoble-alpes.fr/) of the University Grenoble Alpes as a Junior Researcher in Data Science for Life Sciences.
+
 
 
