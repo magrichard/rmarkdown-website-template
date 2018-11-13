@@ -43,6 +43,10 @@ knitr::include_graphics("pictures/mag_cv.png")
 
 ***
 
+**November 2018** : Only one month before the first edition of the cancer heterogeneity [data challenge](https://data-institute.univ-grenoble-alpes.fr/research/data-science-for-life-sciences/health-data-challenge-matrix-factorization-and-deconvolution-methods-to-quantify-tumor-heterogeneity-in-cancer-research-756672.htm)! 
+
+***
+
 **July 2018** : Congratulations to Clémentine, who will start her PhD with us in October. 
 
 ***

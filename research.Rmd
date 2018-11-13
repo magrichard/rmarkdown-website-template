@@ -1,5 +1,5 @@
 ---
-title: "Research projects"
+title: "Research interests"
 ---
 
 <style>
@@ -22,35 +22,48 @@ title: "Research projects"
 
 ***
 
-## LuCaH: Intra-tumour **H**eterogeneity in the context of **Lu**ng **Ca**ncer
+## Cancer heterogeneity 
+
+### LuCaH: Intra-tumour **H**eterogeneity in the context of **Lu**ng **Ca**ncer (main collaborators: S. Achard, S. Khochbin)
 
 <div class="column-right">
-```{r, out.width = "500px", echo=FALSE, fig.align='center'}
+```{r, out.width = "400px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("pictures/FIG1.png")
 ``` 
 </div>
 
-  Since the recent development of high-throughput sequencing technologies, cancer research has focused on characterizing the genetic and epigenetic changes that contribute to the disease. However, these studies well often neglect the fact that tumours are constituted of cells with different identities and origins (cell heterogeneity). Intra-tumour heterogeneity is a key player in cancer development and resistance to therapeutic treatments. 
-
   A major challenge for current research in oncology is to integrate data and existing information into a model that takes into account intra- tumour heterogeneity. Such approach would offer a better understanding of the biological mechanisms involved in the evolution of cancer cells, which will improve the development of adapted therapeutic strategies.
 
-  In the LuCaH project, I propose to address this challenge by establishing an original analytical framework for the study and analysis of complex biological data derived from tumours, and to provide a novel type of information about intra-tumour heterogeneity and cancer virulence.
+  In the LuCaH project, we address this challenge by establishing an original analytical framework for the study and analysis of complex biological data derived from tumours, and to provide a novel type of information about intra-tumour heterogeneity and cancer virulence.
+
+### Health data challenge (main collaborators: I. Guyon, S. Escarela)
+
+Successful treatment of cancer is still a challenge and this is partly due to a wide heterogeneity of cancer composition across patient population.
+
+This challenge will be dedicated to the quantification of intra-tumor heterogeneity using appropriate statistical methods on cancer omics data.
+
+In particular, it will focus on estimating cell types and proportion in biological samples based on averaged DNA methylation and full patient history.
+The goal is to explore various statistical methods for source separation/deconvolution analysis (Non-negative Matrix Factorization, Surrogate Variable Analysis, Principal component Analysis, Latent Factor Models, ...). Participants will be made aware of several pitfalls when analyzing omics data (large datasets, missing data, confounding factors…)
 
 ***
 
-## EpiLung: Discovery and modeling of **Epi**genetically regulated genomic domains in **Lung** cancer
+## (Epi)genetic regulation and variability
 
 <div class="column-right">
-```{r, out.width = "500px", echo=FALSE, fig.align='center'}
+```{r, out.width = "400px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("pictures/pipeline.png")
 ``` 
 </div>
 
-  Recent investigations of the cancer cell epigenome are now highlighting a central role played by epigenetics in malignant transformation. In particular, aberrant gene activity of tumor-suppressor or tissue-specific genes can be directly associated to modifications of the epigenome.
-  
-  While an increasing amount of genome-wide data is accumulating, a main challenge in cancer systems biology remains to understand and propose a unifying quantitative model unraveling the fundamental rules that link the epigenetic deregulations to gene expression and hence to specific cancer phenotypes.
 
-  We propose to develop an interdisciplinary strategy to investigate the interplay between genomic, epigenomic and transcriptomic alterations in the context of lung cancer. 
+### PenDA: PenDA, a rank-based method for **Pe**rso**n**alized **D**ifferential **A**nalysis: application to lung cancer (main collaborators: D. Jost, S. Khochbin)
+
+  With PenDA, we propose an original rank-based statistical method to perform personalized differential analysis in hundreds of samples. For each tested case, the method identifies the deregulated genes/probes as referred to the control group. We evaluated the method on both simulated and biological datasets. We applied the method to The Cancer Genome Atlas (TCGA) lung cancer RNA-seq dataset. Clustering by personalized differential analysis identified clinically meaningful clusters of patients with significant decrease in 10-year survival probabilities. We also provide an R package that ensures reproducibility of the methods and allows to easily analyze any dataset provided by the user. 
+
+### EpiLung: Discovery and modeling of **Epi**genetically regulated genomic domains in **Lung** cancer (main collaborators: D. Jost, S. Khochbin)
+
+
+
   
   Combining statistical analysis and quantitative mathematical modeling with molecular biology experiments on specific cell lines and on tumors, we aim at discovering epigenetically regulated genomic domains in lung cancer, as well as at characterizing and modeling these epigenetic “hot” domains and their association with tumor progression and aggressiveness.
 

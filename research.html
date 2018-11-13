@@ -11,7 +11,7 @@
 
 
 
-<title>Research projects</title>
+<title>Research interests</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,7 +22,9 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
+<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
+<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -90,6 +92,9 @@ img {
 }
 .tabbed-pane {
   padding-top: 12px;
+}
+.html-widget {
+  margin-bottom: 20px;
 }
 button.code-folding-btn:focus {
   outline: none;
@@ -252,7 +257,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Research projects</h1>
+<h1 class="title toc-ignore">Research interests</h1>
 
 </div>
 
@@ -275,25 +280,37 @@ $(document).ready(function () {
 }
 </style>
 <hr />
-<div id="lucah-intra-tumour-heterogeneity-in-the-context-of-lung-cancer" class="section level2">
-<h2>LuCaH: Intra-tumour <strong>H</strong>eterogeneity in the context of <strong>Lu</strong>ng <strong>Ca</strong>ncer</h2>
+<div id="cancer-heterogeneity" class="section level2">
+<h2>Cancer heterogeneity</h2>
+<div id="lucah-intra-tumour-heterogeneity-in-the-context-of-lung-cancer-main-collaborators-s.-achard-s.-khochbin" class="section level3">
+<h3>LuCaH: Intra-tumour <strong>H</strong>eterogeneity in the context of <strong>Lu</strong>ng <strong>Ca</strong>ncer (main collaborators: S. Achard, S. Khochbin)</h3>
 <div class="column-right">
-<p><img src="pictures/FIG1.png" width="500px" style="display: block; margin: auto;" /></p>
+<p><img src="pictures/FIG1.png" width="400px" style="display: block; margin: auto;" /></p>
 </div>
-<p>Since the recent development of high-throughput sequencing technologies, cancer research has focused on characterizing the genetic and epigenetic changes that contribute to the disease. However, these studies well often neglect the fact that tumours are constituted of cells with different identities and origins (cell heterogeneity). Intra-tumour heterogeneity is a key player in cancer development and resistance to therapeutic treatments.</p>
 <p>A major challenge for current research in oncology is to integrate data and existing information into a model that takes into account intra- tumour heterogeneity. Such approach would offer a better understanding of the biological mechanisms involved in the evolution of cancer cells, which will improve the development of adapted therapeutic strategies.</p>
-<p>In the LuCaH project, I propose to address this challenge by establishing an original analytical framework for the study and analysis of complex biological data derived from tumours, and to provide a novel type of information about intra-tumour heterogeneity and cancer virulence.</p>
+<p>In the LuCaH project, we address this challenge by establishing an original analytical framework for the study and analysis of complex biological data derived from tumours, and to provide a novel type of information about intra-tumour heterogeneity and cancer virulence.</p>
+</div>
+<div id="health-data-challenge-main-collaborators-i.-guyon-s.-escarela" class="section level3">
+<h3>Health data challenge (main collaborators: I. Guyon, S. Escarela)</h3>
+<p>Successful treatment of cancer is still a challenge and this is partly due to a wide heterogeneity of cancer composition across patient population.</p>
+<p>This challenge will be dedicated to the quantification of intra-tumor heterogeneity using appropriate statistical methods on cancer omics data.</p>
+<p>In particular, it will focus on estimating cell types and proportion in biological samples based on averaged DNA methylation and full patient history. The goal is to explore various statistical methods for source separation/deconvolution analysis (Non-negative Matrix Factorization, Surrogate Variable Analysis, Principal component Analysis, Latent Factor Models, …). Participants will be made aware of several pitfalls when analyzing omics data (large datasets, missing data, confounding factors…)</p>
 <hr />
 </div>
-<div id="epilung-discovery-and-modeling-of-epigenetically-regulated-genomic-domains-in-lung-cancer" class="section level2">
-<h2>EpiLung: Discovery and modeling of <strong>Epi</strong>genetically regulated genomic domains in <strong>Lung</strong> cancer</h2>
-<div class="column-right">
-<p><img src="pictures/pipeline.png" width="500px" style="display: block; margin: auto;" /></p>
 </div>
-<p>Recent investigations of the cancer cell epigenome are now highlighting a central role played by epigenetics in malignant transformation. In particular, aberrant gene activity of tumor-suppressor or tissue-specific genes can be directly associated to modifications of the epigenome.</p>
-<p>While an increasing amount of genome-wide data is accumulating, a main challenge in cancer systems biology remains to understand and propose a unifying quantitative model unraveling the fundamental rules that link the epigenetic deregulations to gene expression and hence to specific cancer phenotypes.</p>
-<p>We propose to develop an interdisciplinary strategy to investigate the interplay between genomic, epigenomic and transcriptomic alterations in the context of lung cancer.</p>
+<div id="epigenetic-regulation-and-variability" class="section level2">
+<h2>(Epi)genetic regulation and variability</h2>
+<div class="column-right">
+<p><img src="pictures/pipeline.png" width="400px" style="display: block; margin: auto;" /></p>
+</div>
+<div id="penda-penda-a-rank-based-method-for-personalized-differential-analysis-application-to-lung-cancer-main-collaborators-d.-jost-s.-khochbin" class="section level3">
+<h3>PenDA: PenDA, a rank-based method for <strong>Pe</strong>rso<strong>n</strong>alized <strong>D</strong>ifferential <strong>A</strong>nalysis: application to lung cancer (main collaborators: D. Jost, S. Khochbin)</h3>
+<p>With PenDA, we propose an original rank-based statistical method to perform personalized differential analysis in hundreds of samples. For each tested case, the method identifies the deregulated genes/probes as referred to the control group. We evaluated the method on both simulated and biological datasets. We applied the method to The Cancer Genome Atlas (TCGA) lung cancer RNA-seq dataset. Clustering by personalized differential analysis identified clinically meaningful clusters of patients with significant decrease in 10-year survival probabilities. We also provide an R package that ensures reproducibility of the methods and allows to easily analyze any dataset provided by the user.</p>
+</div>
+<div id="epilung-discovery-and-modeling-of-epigenetically-regulated-genomic-domains-in-lung-cancer-main-collaborators-d.-jost-s.-khochbin" class="section level3">
+<h3>EpiLung: Discovery and modeling of <strong>Epi</strong>genetically regulated genomic domains in <strong>Lung</strong> cancer (main collaborators: D. Jost, S. Khochbin)</h3>
 <p>Combining statistical analysis and quantitative mathematical modeling with molecular biology experiments on specific cell lines and on tumors, we aim at discovering epigenetically regulated genomic domains in lung cancer, as well as at characterizing and modeling these epigenetic “hot” domains and their association with tumor progression and aggressiveness.</p>
+</div>
 </div>
 
 
