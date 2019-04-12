@@ -1,22 +1,33 @@
 ---
 title: "Publications, software development and scientific communication"
+output:
+  html_document:
+    includes:
+      in_header: header.html
 ---
 
 <a href="https://orcid.org/0000-0003-3165-3218" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0003-3165-3218</a>
 
 ## Research articles
 
-[6] Salignon #, J., **Richard #, M.**, Fulcrand, E., Duplus-Bottin, H. & Yvert, G. (2018) Unexpected selection in fluctuating environments. Molecular Systems Biology (In press). [PDF](fluctu.pdf)
+[7] D'Alessandro M, Richard M, Stigloher C, Gache V, Boulin T, Richmond JE, Bessereau JL. (2018) CRELD1 is an evolutionarily-conserved maturational enhancer of ionotropic acetylcholine receptors. Elife. 2018 Nov 7;7. pii: e39649. 
+[Click](https://elifesciences.org/articles/39649)
 
-[5] **Richard, M.**, Chuffart, F, Duplus-Bottin, H., Pouyet, F., Spichty, M., Fulcrand, E., Entrevan, M., Barthelaix, A., Springer, M., Jost, D., and G. Yvert , G. (2018). Assigning function to natural allelic variation via dynamic modeling of gene network induction. Molecular Systems Biology, 14, e7803. [Click](https://doi.org/10.15252/msb.20177803) or [PDF](msbgal3.full.pdf)
+[6] Salignon #, J., Richard #, M., Fulcrand, E., Duplus-Bottin, H. & Yvert, G. (2018) Genomics of cellular proliferation in periodic environmental fluctuations. Mol Syst Biol. 2018 Mar 5;14(3):e7823. [Click](http://msb.embopress.org.insb.bib.cnrs.fr/content/14/3/e7823.long)
 
-[4] Chuffart, F., **Richard, M.**, Jost, D., Burny, C., Duplus-Bottin, H., Ohya, Y., & Yvert, G. (2016). Exploiting Single-Cell Quantitative Data to Map Genetic Variants Having Probabilistic Effects. PLoS Genetics, 12(8), e1006213. [Click](http://doi.org/10.1371/journal.pgen.1006213) or [PDF](PLoS Genetics 2016 Chuffart.pdf)
+[5] Richard, M.*, Chuffart, F, Duplus-Bottin, H., Pouyet, F., Spichty, M., Fulcrand, E., Entrevan, M., Barthelaix, A., Springer, M., Jost, D., and G. Yvert , G. (2018). Assigning function to natural allelic variation via dynamic modeling of gene network induction. Molecular Systems Biology, 14, e7803. [Click](https://doi.org/10.15252/msb.20177803) or [PDF](msbgal3.full.pdf)
 
-[3] **Richard, M.** & Yvert, G. L. How does evolution tune biological noise? Front. Genet. 5, 1011 (2014). [Click](http://doi.org/10.3389/fgene.2014.00374) or [PDF](frontiers.pdf)
+[4] Chuffart, F., Richard, M., Jost, D., Burny, C., Duplus-Bottin, H., Ohya, Y., & Yvert, G. (2016). Exploiting Single-Cell Quantitative Data to Map Genetic Variants Having Probabilistic Effects. PLoS Genetics, 12(8), e1006213. [Click](http://doi.org/10.1371/journal.pgen.1006213) or [PDF](PLoS Genetics 2016 Chuffart.pdf)
 
-[2] **Richard, M.**, Boulin, T., Robert, V. J. P., Richmond, J. E., & Bessereau, J.-L. (2013). Biosynthesis of ionotropic acetylcholine receptors requires the evolutionarily conserved ER membrane complex. Proceedings of the National Academy of Sciences of the United States of America, 110(11), E1055–63. [Click](http://doi.org/10.1073/pnas.1216154110) or [PDF](pnas.pdf)
+[3] Richard, M. & Yvert, G. L. How does evolution tune biological noise? Front. Genet. 5, 1011 (2014). [Click](http://doi.org/10.3389/fgene.2014.00374) or [PDF](frontiers.pdf)
 
-[1] Legent, K., Steinhauer, J., **Richard, M.**, & Treisman, J. E. (2012). A screen for X-linked mutations affecting Drosophila photoreceptor differentiation identifies Casein kinase 1α as an essential negative regulator of wingless signaling. Genetics, 190(2), 601–616. [Click](http://doi.org/10.1534/genetics.111.133827) or [PDF](genetics.pdf)
+[2] Richard, M., Boulin, T., Robert, V. J. P., Richmond, J. E., & Bessereau, J.-L. (2013). Biosynthesis of ionotropic acetylcholine receptors requires the evolutionarily conserved ER membrane complex. Proceedings of the National Academy of Sciences of the United States of America, 110(11), E1055–63. [Click](http://doi.org/10.1073/pnas.1216154110) or [PDF](pnas.pdf)
+
+[1] Legent, K., Steinhauer, J., Richard, M., & Treisman, J. E. (2012). A screen for X-linked mutations affecting Drosophila photoreceptor differentiation identifies Casein kinase 1α as an essential negative regulator of wingless signaling. Genetics, 190(2), 601–616. [Click](http://doi.org/10.1534/genetics.111.133827) or [PDF](genetics.pdf)
+
+(#): joint first authors
+
+(*): joint corresponding authors
 
 ## R packages
 
@@ -31,9 +42,13 @@ title: "Publications, software development and scientific communication"
 
 ##Conferences
 
+####2018
+
+ICSB (International Conference of System Biology), Talk, Lyon, France. *PenDA, a rank-based method for personalized differential analysis*
+
 ####2017
 
-Epigenetics and Cancer, Poster, Heidelberg, Allemagne.*Identifying epigenetic hotspots in lung cancer*
+Epigenetics and Cancer, Poster, Heidelberg, Allemagne. *Identifying epigenetic hotspots in lung cancer*
 
 Advanced lecture course on computational systems biology, Talk, Aussois, France. *Functional Genetic Diversity of the Yeast Galactose Network*
 

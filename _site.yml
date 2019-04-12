@@ -7,9 +7,9 @@ navbar:
     - text: "Home"
       icon: fa-home
       href: index.html
-    - text: "About"
+    - text: "People"
       icon: fa-user
-      href: about.html
+      href: people.html
     - text: "Research"
       icon: fa-code-fork  
       href: research.html
@@ -19,9 +19,12 @@ navbar:
     - text: "Publication"
       icon: fa-institution 
       href: publication.html
-    - text: "CV"
-      icon: fa-file-pdf-o
-      href: cv.html
+    - text: "Open Science"
+      icon: fa-universal-access
+      href: open_science.html
+    - text: "Join us"
+      icon: fa-sign-in-alt
+      href: join.html
   right:
     - text: "Contact me"
       icon: fa-envelope-o

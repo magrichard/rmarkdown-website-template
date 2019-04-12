@@ -11,7 +11,7 @@
 
 
 
-<title>About</title>
+<title>People</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -22,9 +22,9 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<div><img src="pictures/header.png" width="100%" align="center"></div>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -99,6 +99,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -113,7 +116,6 @@ body {
   padding-top: 59px;
   margin-top: -59px;
 }
-
 .section h2 {
   padding-top: 59px;
   margin-top: -59px;
@@ -133,6 +135,43 @@ body {
 .section h6 {
   padding-top: 59px;
   margin-top: -59px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -154,18 +193,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -191,10 +289,10 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="about.html">
+  <a href="people.html">
     <span class="fa fa-user"></span>
      
-    About
+    People
   </a>
 </li>
 <li>
@@ -216,6 +314,13 @@ $(document).ready(function () {
     <span class="fa fa-institution"></span>
      
     Publication
+  </a>
+</li>
+<li>
+  <a href="open_science.html">
+    <span class="fa fa-file-pdf-o"></span>
+     
+    Open Science
   </a>
 </li>
 <li>
@@ -257,7 +362,7 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">About</h1>
+<h1 class="title toc-ignore">People</h1>
 
 </div>
 
@@ -265,31 +370,55 @@ $(document).ready(function () {
 <style>
 .column-left{
   float: left;
-  width: 70%;
-  text-align: left;
+  width: 20%;
+  text-align: right;
 }
 .column-right{
-  float: right;
-  width: 30%;
-  text-align: right;
+  float: left;
+  width: 80%;
+  text-align: left;
 }
 </style>
 <div class="column-left">
-<p>I am a computational biologist specialized in experimental and theoritical genetics.</p>
-<p>In October 2018, I was recruited by the CNRS as a research associate (CRCN). I am currently working at the <a href="https://www-timc.imag.fr/">TIMC-IMAG</a> laboratory in the <a href="https://www-timc.imag.fr/BCM">BCM</a> team.</p>
-<p><img src="pictures/data.png" width="500px" style="display: block; margin: auto auto auto 0;" /></p>
+<p><img src="pictures/mag_cv.png" width="100px" style="display: block; margin: auto;" /></p>
 </div>
 <div class="column-right">
-<p><img src="pictures/mag_cv.png" width="200px" style="display: block; margin: auto;" /></p>
+<p><strong>Magali Richard</strong> (PI), for more details, see my <a href="CV.pdf">CV</a>.</p>
+<p>Computational biologist specialized in experimental and theoritical genetics.</p>
+<p>CNRS research associate (CRCN).</p>
+<p>Contact: magali.richard[at]univ-grenoble-alpes.fr</p>
 </div>
-<hr />
-<div id="previous-jobs" class="section level3">
-<h3>Previous jobs</h3>
-<p>I carried out my PhD at the Biology Institute of the ENS Paris on genetics and neurobiology of the worm Caenorhabditis elegans in <a href="http://www.inmg.fr/fr/eq_bessereau.php">Jean-Louis Bessereau team</a>. In particular, I discovered and identified a novel Er complex involved in maturation of transmembrane complexe proteins.</p>
-<p>I worked at the <a href="http://www.ens-lyon.fr/LBMC/gisv/index.php/fr/">Gael Yvert</a> team in Ecole Normale Supérieure de Lyon as a postdoc from february 2013 to august 2016 in the “Cell modelisation and Biology” laboratory. During this postdoc, I have developped experimental and quantitative genetics approaches to study the genetic regulation of cell behavior in yeast.</p>
-<p>My secong postdoc (from sept 2016 to dec 2017) was focused on the genetic and epigenetic regulation of cancer in lung tumors. I joined the group of <a href="http://membres-timc.imag.fr/Daniel.Jost/DJ-TIMC/Home.html">Daniel Jost</a> (BCM Team, TIMC-IMAG) and the EpiLung consortium to develop statistic and physic models on the regulation of cancer proliferation.</p>
-<p>In January 2018, I was recruited by the <a href="https://data-institute.univ-grenoble-alpes.fr/">Data Institute</a> of the University Grenoble Alpes as a Junior Researcher in Data Science for Life Sciences.</p>
+<div class="column-left">
+<p><img src="pictures/clementine.png" width="90px" style="display: block; margin: auto;" /></p>
 </div>
+<div class="column-right">
+<p><strong>Clémentine Decamps</strong> (co-direction with Daniel Jost, LBMC, ENS Lyon)</p>
+<p>Computational biology of cancer epigenetics</p>
+<p>PhD student</p>
+<p>Contact: clementine.decamps[at]univ-grenoble-alpes.fr</p>
+</div>
+<div class="column-left">
+<p><img src="pictures/tulip.png" width="80px" style="display: block; margin: auto;" /></p>
+</div>
+<div class="column-right">
+<p><strong>Milan Jacobi</strong> (co-direction with Anais Bardet, ESBS, Strasboug)</p>
+<p>Statistical models of gene regulation</p>
+<p>M2 student</p>
+<p>Contact: milan.jacobi[at]etu.univ-grenoble-alpes.fr</p>
+</div>
+<div class="column-left">
+<p><img src="pictures/pivoine.png" width="80px" style="display: block; margin: auto;" /></p>
+</div>
+<div class="column-right">
+<p><strong>Bahareh Afshinpour</strong> (co-direction with Daniel Jost, LBMC, ENS Lyon)</p>
+<p>Methylation data analysis</p>
+<p>Engineer (IE)</p>
+<p>Contact: bahareh.afshinpour[at]univ-grenoble-alpes.fr</p>
+</div>
+<p><em>ALUMNI</em></p>
+<p>Raphael Bacher (2018), Engineer, data challenge (financed by the Data institute of grenoble)</p>
+<p>Arthur Waguet (2018), Master student, Signal treatment &amp; cancer heterogeneity</p>
+<p>Paul Terzian (2017), Master student, computational biology of cancer epigenetics</p>
 
 
 

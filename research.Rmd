@@ -1,5 +1,9 @@
 ---
 title: "Research interests"
+output:
+  html_document:
+    includes:
+      in_header: header.html
 ---
 
 <style>
@@ -22,46 +26,31 @@ title: "Research interests"
 
 ***
 
-## Cancer heterogeneity 
-
-### LuCaH: Intra-tumour **H**eterogeneity in the context of **Lu**ng **Ca**ncer (main collaborators: S. Achard, S. Khochbin)
+# Cancer heterogeneity  
+main collaborators: Y. Blum, J. Cros, P. Lutsik
 
 <div class="column-right">
-```{r, out.width = "400px", echo=FALSE, fig.align='center'}
+```{r, out.width = "300px", echo=FALSE, fig.align='center'}
 knitr::include_graphics("pictures/FIG1.png")
 ``` 
 </div>
 
   A major challenge for current research in oncology is to integrate data and existing information into a model that takes into account intra- tumour heterogeneity. Such approach would offer a better understanding of the biological mechanisms involved in the evolution of cancer cells, which will improve the development of adapted therapeutic strategies.
 
-  In the LuCaH project, we address this challenge by establishing an original analytical framework for the study and analysis of complex biological data derived from tumours, and to provide a novel type of information about intra-tumour heterogeneity and cancer virulence.
+  We address this challenge by establishing an original analytical framework for the study and analysis of complex biological data derived from tumours, and to provide a novel type of information about intra-tumour heterogeneity and cancer virulence.
 
-### Health data challenge (main collaborators: I. Guyon, S. Escarela)
 
-Successful treatment of cancer is still a challenge and this is partly due to a wide heterogeneity of cancer composition across patient population.
-
-This challenge will be dedicated to the quantification of intra-tumor heterogeneity using appropriate statistical methods on cancer omics data.
-
-In particular, it will focus on estimating cell types and proportion in biological samples based on averaged DNA methylation and full patient history.
-The goal is to explore various statistical methods for source separation/deconvolution analysis (Non-negative Matrix Factorization, Surrogate Variable Analysis, Principal component Analysis, Latent Factor Models, ...). Participants will be made aware of several pitfalls when analyzing omics data (large datasets, missing data, confounding factors…)
 
 ***
 
-## (Epi)genetic regulation and variability
+# (Epi)genetic regulation and variability
+main collaborators: D. Jost, S. Khochbin, A. Bardet
 
 <div class="column-right">
-```{r, out.width = "400px", echo=FALSE, fig.align='center'}
-knitr::include_graphics("pictures/pipeline.png")
+```{r, out.width = "300px", echo=FALSE, fig.align='center'}
+knitr::include_graphics("pictures/penda.png")
 ``` 
 </div>
-
-
-### PenDA: PenDA, a rank-based method for **Pe**rso**n**alized **D**ifferential **A**nalysis: application to lung cancer (main collaborators: D. Jost, S. Khochbin)
-
-  With PenDA, we propose an original rank-based statistical method to perform personalized differential analysis in hundreds of samples. For each tested case, the method identifies the deregulated genes/probes as referred to the control group. We evaluated the method on both simulated and biological datasets. We applied the method to The Cancer Genome Atlas (TCGA) lung cancer RNA-seq dataset. Clustering by personalized differential analysis identified clinically meaningful clusters of patients with significant decrease in 10-year survival probabilities. We also provide an R package that ensures reproducibility of the methods and allows to easily analyze any dataset provided by the user. 
-
-### EpiLung: Discovery and modeling of **Epi**genetically regulated genomic domains in **Lung** cancer (main collaborators: D. Jost, S. Khochbin)
-
 
 
   

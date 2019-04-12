@@ -22,9 +22,9 @@
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
 <link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.0.13/css/fa-svg-with-js.css" rel="stylesheet" />
-<script src="site_libs/font-awesome-5.0.13/js/fontawesome-all.min.js"></script>
-<script src="site_libs/font-awesome-5.0.13/js/fa-v4-shims.min.js"></script>
+<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
+<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
+<div><img src="pictures/header.png" width="100%" align="center"></div>
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -99,6 +99,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -113,7 +116,6 @@ body {
   padding-top: 59px;
   margin-top: -59px;
 }
-
 .section h2 {
   padding-top: 59px;
   margin-top: -59px;
@@ -133,6 +135,43 @@ body {
 .section h6 {
   padding-top: 59px;
   margin-top: -59px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -154,18 +193,77 @@ $(document).ready(function () {
 });
 </script>
 
-
 <div class="container-fluid main-container">
 
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
 });
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
 </script>
 
 <!-- code folding -->
-
 
 
 
@@ -191,10 +289,10 @@ $(document).ready(function () {
   </a>
 </li>
 <li>
-  <a href="about.html">
+  <a href="people.html">
     <span class="fa fa-user"></span>
      
-    About
+    People
   </a>
 </li>
 <li>
@@ -216,6 +314,13 @@ $(document).ready(function () {
     <span class="fa fa-institution"></span>
      
     Publication
+  </a>
+</li>
+<li>
+  <a href="open_science.html">
+    <span class="fa fa-file-pdf-o"></span>
+     
+    Open Science
   </a>
 </li>
 <li>
@@ -280,37 +385,23 @@ $(document).ready(function () {
 }
 </style>
 <hr />
-<div id="cancer-heterogeneity" class="section level2">
-<h2>Cancer heterogeneity</h2>
-<div id="lucah-intra-tumour-heterogeneity-in-the-context-of-lung-cancer-main-collaborators-s.-achard-s.-khochbin" class="section level3">
-<h3>LuCaH: Intra-tumour <strong>H</strong>eterogeneity in the context of <strong>Lu</strong>ng <strong>Ca</strong>ncer (main collaborators: S. Achard, S. Khochbin)</h3>
+<div id="cancer-heterogeneity" class="section level1">
+<h1>Cancer heterogeneity</h1>
+<p>main collaborators: Y. Blum, J. Cros, P. Lutsik</p>
 <div class="column-right">
-<p><img src="pictures/FIG1.png" width="400px" style="display: block; margin: auto;" /></p>
+<p><img src="pictures/FIG1.png" width="300px" style="display: block; margin: auto;" /></p>
 </div>
 <p>A major challenge for current research in oncology is to integrate data and existing information into a model that takes into account intra- tumour heterogeneity. Such approach would offer a better understanding of the biological mechanisms involved in the evolution of cancer cells, which will improve the development of adapted therapeutic strategies.</p>
-<p>In the LuCaH project, we address this challenge by establishing an original analytical framework for the study and analysis of complex biological data derived from tumours, and to provide a novel type of information about intra-tumour heterogeneity and cancer virulence.</p>
-</div>
-<div id="health-data-challenge-main-collaborators-i.-guyon-s.-escarela" class="section level3">
-<h3>Health data challenge (main collaborators: I. Guyon, S. Escarela)</h3>
-<p>Successful treatment of cancer is still a challenge and this is partly due to a wide heterogeneity of cancer composition across patient population.</p>
-<p>This challenge will be dedicated to the quantification of intra-tumor heterogeneity using appropriate statistical methods on cancer omics data.</p>
-<p>In particular, it will focus on estimating cell types and proportion in biological samples based on averaged DNA methylation and full patient history. The goal is to explore various statistical methods for source separation/deconvolution analysis (Non-negative Matrix Factorization, Surrogate Variable Analysis, Principal component Analysis, Latent Factor Models, …). Participants will be made aware of several pitfalls when analyzing omics data (large datasets, missing data, confounding factors…)</p>
+<p>We address this challenge by establishing an original analytical framework for the study and analysis of complex biological data derived from tumours, and to provide a novel type of information about intra-tumour heterogeneity and cancer virulence.</p>
 <hr />
 </div>
-</div>
-<div id="epigenetic-regulation-and-variability" class="section level2">
-<h2>(Epi)genetic regulation and variability</h2>
+<div id="epigenetic-regulation-and-variability" class="section level1">
+<h1>(Epi)genetic regulation and variability</h1>
+<p>main collaborators: D. Jost, S. Khochbin, A. Bardet</p>
 <div class="column-right">
-<p><img src="pictures/pipeline.png" width="400px" style="display: block; margin: auto;" /></p>
+<p><img src="pictures/penda.png" width="300px" style="display: block; margin: auto;" /></p>
 </div>
-<div id="penda-penda-a-rank-based-method-for-personalized-differential-analysis-application-to-lung-cancer-main-collaborators-d.-jost-s.-khochbin" class="section level3">
-<h3>PenDA: PenDA, a rank-based method for <strong>Pe</strong>rso<strong>n</strong>alized <strong>D</strong>ifferential <strong>A</strong>nalysis: application to lung cancer (main collaborators: D. Jost, S. Khochbin)</h3>
-<p>With PenDA, we propose an original rank-based statistical method to perform personalized differential analysis in hundreds of samples. For each tested case, the method identifies the deregulated genes/probes as referred to the control group. We evaluated the method on both simulated and biological datasets. We applied the method to The Cancer Genome Atlas (TCGA) lung cancer RNA-seq dataset. Clustering by personalized differential analysis identified clinically meaningful clusters of patients with significant decrease in 10-year survival probabilities. We also provide an R package that ensures reproducibility of the methods and allows to easily analyze any dataset provided by the user.</p>
-</div>
-<div id="epilung-discovery-and-modeling-of-epigenetically-regulated-genomic-domains-in-lung-cancer-main-collaborators-d.-jost-s.-khochbin" class="section level3">
-<h3>EpiLung: Discovery and modeling of <strong>Epi</strong>genetically regulated genomic domains in <strong>Lung</strong> cancer (main collaborators: D. Jost, S. Khochbin)</h3>
 <p>Combining statistical analysis and quantitative mathematical modeling with molecular biology experiments on specific cell lines and on tumors, we aim at discovering epigenetically regulated genomic domains in lung cancer, as well as at characterizing and modeling these epigenetic “hot” domains and their association with tumor progression and aggressiveness.</p>
-</div>
 </div>
 
 

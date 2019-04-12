@@ -1,0 +1,104 @@
+---
+title: "People"
+output:
+  html_document:
+    includes:
+      in_header: header.html
+---
+
+<style>
+.column-left{
+  float: left;
+  width: 20%;
+  text-align: right;
+}
+.column-right{
+  float: left;
+  width: 80%;
+  text-align: left;
+}
+</style>
+
+<div class="column-left">
+```{r, out.width = "100px", echo=FALSE, fig.align='center'}
+knitr::include_graphics("pictures/mag_cv.png")
+``` 
+</div>
+
+<div class="column-right">
+**Magali Richard** (PI), for more details, see my [CV](CV.pdf).
+
+Computational biologist specialized in experimental and theoritical genetics. 
+
+CNRS research associate (CRCN). 
+
+Contact: magali.richard[at]univ-grenoble-alpes.fr
+
+</div>
+
+<div class="column-left">
+```{r, out.width = "90px", echo=FALSE, fig.align='center'}
+knitr::include_graphics("pictures/clementine.png")
+``` 
+</div>
+
+
+
+<div class="column-right">
+**Clémentine Decamps** (co-direction with Daniel Jost, LBMC, ENS Lyon)
+
+Computational biology of cancer epigenetics
+
+PhD student
+
+Contact: clementine.decamps[at]univ-grenoble-alpes.fr
+</div>
+
+<div class="column-left">
+```{r, out.width = "80px", echo=FALSE, fig.align='center'}
+knitr::include_graphics("pictures/tulip.png")
+``` 
+</div>
+
+
+
+<div class="column-right">
+**Milan Jacobi** (co-direction with Anais Bardet, ESBS, Strasboug)
+
+Statistical models of gene regulation
+
+M2 student
+
+Contact: milan.jacobi[at]etu.univ-grenoble-alpes.fr
+</div>
+
+
+<div class="column-left">
+```{r, out.width = "80px", echo=FALSE, fig.align='center'}
+knitr::include_graphics("pictures/pivoine.png")
+``` 
+</div>
+
+
+
+<div class="column-right">
+**Bahareh Afshinpour** (co-direction with Daniel Jost, LBMC, ENS Lyon)
+
+Methylation data analysis
+
+Engineer (IE)
+
+Contact: bahareh.afshinpour[at]univ-grenoble-alpes.fr
+</div>
+
+
+*ALUMNI*
+
+Raphael Bacher (2018), Engineer, data challenge (financed by the Data institute of grenoble)
+
+Arthur Waguet (2018), Master student, Signal treatment & cancer heterogeneity
+
+Paul Terzian (2017), Master student, computational biology of cancer epigenetics
+
+
+

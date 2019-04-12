@@ -1,24 +1,44 @@
 ---
 title: "Teaching"
+output:
+  html_document:
+    includes:
+      in_header: header.html
 ---
 
-***
 
-## DATA CHALLENGE
-
-Sophie Achard, Dylan Aïssi, Michael Blum, Kevin Caye, Florent Chuffart, Olivier François, Keurcien Luu, Florian Privé and Magali Richard. (2017). 
-
-Retour d’expérience concernant le data challenge épigénétique et médiation à large échelle d’Aussois (2018). [CFIES](http://cfies2017.sfds.asso.fr/). [PDF](data_challenge_CFIES_2017.pdf)
 
 ***
 
-## COURSES
+## Statistics
+
+### 2018-2019
+
+UGA, master SSD
+
+Linear Models: [please find here the github repository of the course](https://github.com/magrichard/cours_modlin_M1) 
+
+Logistic regression: [please find here the github repository of the course](https://github.com/magrichard/cours_reglog) 
 
 ### 2016-2017 
 
 ENSIMAG, grenoble. Statistics (Master)
 
 UGA, grenoble. Statistics (Licence)
+
+*** 
+
+## R users
+
+Good coding practices (2019) [see here](https://magrichard.github.io/good_coding_practices/rpresentation.html#1)
+
+R studio and git (2018) [see here](https://privefl.github.io/R-presentation/rstudio-git.html#1)
+
+***
+
+## Biology
+
+### 2016-2017 
 
 UGA, grenoble. Genetics (Licence)
 
