@@ -6,9 +6,14 @@ output:
       in_header: header.html
 ---
 
+
+
+
 <a href="https://orcid.org/0000-0003-3165-3218" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0003-3165-3218</a>
 
 ## Research articles
+
+[8] Richard, M.*, Decamps, C., Chuffart, F., Brambilla, E., Rousseaux, S., Khochbin, S., Jost, D. (2019) PenDA, a rank-based method for Personalized Differential Analysis: application to lung cancer. Submitted. <a href="/data/test.pdf" download> Download reference dataset </a>
 
 [7] D'Alessandro M, Richard M, Stigloher C, Gache V, Boulin T, Richmond JE, Bessereau JL. (2018) CRELD1 is an evolutionarily-conserved maturational enhancer of ionotropic acetylcholine receptors. Elife. 2018 Nov 7;7. pii: e39649. 
 [Click](https://elifesciences.org/articles/39649)
