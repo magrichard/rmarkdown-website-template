@@ -13,7 +13,7 @@ output:
 
 ## Research articles
 
-[8] Richard, M.*, Decamps, C., Chuffart, F., Brambilla, E., Rousseaux, S., Khochbin, S., Jost, D. (2019) PenDA, a rank-based method for Personalized Differential Analysis: application to lung cancer. Submitted. <a href="data" download> Download reference dataset </a>
+[8] Richard, M.*, Decamps, C., Chuffart, F., Brambilla, E., Rousseaux, S., Khochbin, S., Jost, D. (2019) PenDA, a rank-based method for Personalized Differential Analysis: application to lung cancer. Submitted. <a href="data/" download> Download reference dataset </a>
 
 [7] D'Alessandro M, Richard M, Stigloher C, Gache V, Boulin T, Richmond JE, Bessereau JL. (2018) CRELD1 is an evolutionarily-conserved maturational enhancer of ionotropic acetylcholine receptors. Elife. 2018 Nov 7;7. pii: e39649. 
 [Click](https://elifesciences.org/articles/39649)
