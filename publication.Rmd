@@ -7,8 +7,6 @@ output:
 ---
 
 
-
-
 <a href="https://orcid.org/0000-0003-3165-3218" target="orcid.widget" rel="noopener noreferrer" style="vertical-align:top;"><img src="https://orcid.org/sites/default/files/images/orcid_16x16.png" style="width:1em;margin-right:.5em;" alt="ORCID iD icon">orcid.org/0000-0003-3165-3218</a>
 
 ## Research articles
@@ -26,9 +24,9 @@ output:
 
 [3] Richard, M. & Yvert, G. L. How does evolution tune biological noise? Front. Genet. 5, 1011 (2014). [Click](http://doi.org/10.3389/fgene.2014.00374) or [PDF](frontiers.pdf)
 
-[2] Richard, M., Boulin, T., Robert, V. J. P., Richmond, J. E., & Bessereau, J.-L. (2013). Biosynthesis of ionotropic acetylcholine receptors requires the evolutionarily conserved ER membrane complex. Proceedings of the National Academy of Sciences of the United States of America, 110(11), E1055–63. [Click](http://doi.org/10.1073/pnas.1216154110) or [PDF](pnas.pdf)
+[2] Richard, M., Boulin, T., Robert, V. J. P., Richmond, J. E., & Bessereau, J.-L. (2013). Biosynthesis of ionotropic acetylcholine receptors requires the evolutionarily conserved ER membrane complex. Proceedings of the National Academy of Sciences of the United States of America, 110(11), E1055???63. [Click](http://doi.org/10.1073/pnas.1216154110) or [PDF](pnas.pdf)
 
-[1] Legent, K., Steinhauer, J., Richard, M., & Treisman, J. E. (2012). A screen for X-linked mutations affecting Drosophila photoreceptor differentiation identifies Casein kinase 1α as an essential negative regulator of wingless signaling. Genetics, 190(2), 601–616. [Click](http://doi.org/10.1534/genetics.111.133827) or [PDF](genetics.pdf)
+[1] Legent, K., Steinhauer, J., Richard, M., & Treisman, J. E. (2012). A screen for X-linked mutations affecting Drosophila photoreceptor differentiation identifies Casein kinase 1?? as an essential negative regulator of wingless signaling. Genetics, 190(2), 601???616. [Click](http://doi.org/10.1534/genetics.111.133827) or [PDF](genetics.pdf)
 
 (#): joint first authors
 
@@ -45,7 +43,7 @@ output:
 1/ [h4decoder5](https://github.com/magrichard/h4decoder5) (2013) **M. Richard**. R package to generate error-correcting DNA barcodes.
 
 
-##Conferences
+## Conferences
 
 ####2018
 
@@ -69,7 +67,7 @@ BCM Seminar, Invited speaker, Grenoble, France. *Functional Genetic Diversity of
 
 JOBIM, Poster, Clermont-Ferrand. *Identification of fitness advantage in dynamic environment by modelisation of BAR-seq data*
 
-Quatrièmes Rencontres R, Talk, Grenoble, France. *A general method to map single-cell probabilstic trait loci of the genome*
+Quatri??mes Rencontres R, Talk, Grenoble, France. *A general method to map single-cell probabilstic trait loci of the genome*
 
 ####2014 
 
