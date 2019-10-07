@@ -16,15 +16,10 @@ Main collaborators on the codalab platform: I. Guyon (INRIA), S. Escarela (Unive
 
 Main collaborators on the computational methods: J. Cros (AP-HP), Y. Blum (Ligue contre le cancer), P. Lutsik (DKFZ)
 
-### 2019
+Visit our website dedicate to cancer heterogenity data challenges and benchmarking : [Cancer Heterogeneity](https://cancer-heterogeneity.github.io/)
 
 !!! **Next data challenge: November 25 to 29 2019, in Aussois (French Alps)** !!!
 
-### 2018
-
-[Data challenge website](https://data-institute.univ-grenoble-alpes.fr/research/data-science-for-life-sciences/health-data-challenge-matrix-factorization-and-deconvolution-methods-to-quantify-tumor-heterogeneity-in-cancer-research-756672.htm)
-
-[Cancer heterogeneity data challenge](https://competitions.codalab.org/competitions/20850)
 
 ## Epigenetic and mediation
 
