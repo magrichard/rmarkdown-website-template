@@ -12,9 +12,9 @@ We are located at [TIMC-IMAG](https://www-timc.imag.fr/) in the [BCM](https://ww
 
 [Research projects](research.html)
 
-[Open Science : data Challenges and benchmarking projects](about.html)
+[Open Science : data Challenges and benchmarking projects](open_science.html)
 
-[People](about.html)
+[People](people.html)
 
 [Publications](publication.html)
 

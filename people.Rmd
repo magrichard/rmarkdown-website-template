@@ -30,7 +30,7 @@ knitr::include_graphics("pictures/mag_cv.png")
 
 Computational biologist specialized in experimental and theoritical genetics. 
 
-CNRS research associate (CRCN). 
+CNRS research associate (CRCN), computational biologist
 
 Contact: magali.richard[at]univ-grenoble-alpes.fr
 
@@ -49,50 +49,41 @@ knitr::include_graphics("pictures/clementine.png")
 
 Computational biology of cancer epigenetics
 
-PhD student
+PhD student in bioinformatics
 
 Contact: clementine.decamps[at]univ-grenoble-alpes.fr
 </div>
 
 <div class="column-left">
 ```{r, out.width = "80px", echo=FALSE, fig.align='center'}
-knitr::include_graphics("pictures/tulip.png")
+knitr::include_graphics("pictures/alexis_arnaud.jpg")
 ``` 
 </div>
 
 
 
 <div class="column-right">
-**Milan Jacobi** (co-direction with Anais Bardet, ESBS, Strasboug)
+**Alexis Arnaud** (financed by the Data institute of grenoble)
 
-Statistical models of gene regulation
+Data challenge & Benchmarking (HADACA and COMETH EIT Health projects)
 
-M2 student
+Engineer in Computer Sciences
 
-Contact: milan.jacobi[at]etu.univ-grenoble-alpes.fr
-</div>
-
-
-<div class="column-left">
-```{r, out.width = "80px", echo=FALSE, fig.align='center'}
-knitr::include_graphics("pictures/pivoine.png")
-``` 
+Contact: alexis.arnaud[at]univ-grenoble-alpes.fr
 </div>
 
 
 
-<div class="column-right">
-**Bahareh Afshinpour** (co-direction with Daniel Jost, LBMC, ENS Lyon)
 
-Methylation data analysis
 
-Engineer (IE)
 
-Contact: bahareh.afshinpour[at]univ-grenoble-alpes.fr
-</div>
 
 
 *ALUMNI*
+
+Milan Jacobi (2019), Master student, DNA methylation statistical analysis
+
+Bahareh Afshinpour (2019), Engineer, DNA methylation data treatment & analysis
 
 Raphael Bacher (2018), Engineer, data challenge (financed by the Data institute of grenoble)
 

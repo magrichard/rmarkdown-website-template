@@ -7,6 +7,7 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
+<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
@@ -72,9 +73,7 @@ h6 {
 </style>
 
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -88,7 +87,6 @@ code {
 }
 img {
   max-width:100%;
-  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -193,8 +191,6 @@ $(document).ready(function () {
 });
 </script>
 
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
 
 <style type="text/css">
@@ -251,20 +247,17 @@ $(document).ready(function () {
 }
 </style>
 
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
 <!-- code folding -->
 
+
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -370,15 +363,12 @@ $(document).ready(function () {
 <p>Our group is interested in developing computational methods for a better understanding of genetic and epigenetic variations in the context of cancer.</p>
 <p>We are located at <a href="https://www-timc.imag.fr/">TIMC-IMAG</a> in the <a href="https://www-timc.imag.fr/BCM">BCM</a> team, CNRS, Université Grenoble Alpes.</p>
 <p><a href="research.html">Research projects</a></p>
-<p><a href="about.html">Open Science : data Challenges and benchmarking projects</a></p>
-<p><a href="about.html">People</a></p>
+<p><a href="open_science.html">Open Science : data Challenges and benchmarking projects</a></p>
+<p><a href="people.html">People</a></p>
 <p><a href="publication.html">Publications</a></p>
 <p><a href="teaching.html">Teaching</a></p>
 <p>Header Pictures: <a href="https://www.ecosia.org/images?c=fr&amp;p=13&amp;q=harry+gruyaert#id=_">Harry Gruyaert</a>©</p>
-<div class="figure">
-<img src="pictures/fundings.png" />
-
-</div>
+<p><img src="pictures/fundings.png" /></p>
 
 
 
@@ -397,6 +387,23 @@ $(document).ready(function () {
 
 
 </script>
+
+<!-- tabsets -->
+
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
+});
+</script>
+
+<!-- code folding -->
+
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>
