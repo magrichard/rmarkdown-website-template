@@ -27,7 +27,7 @@ output:
 ***
 
 # Cancer heterogeneity  
-main collaborators: Y. Blum, J. Cros, P. Lutsik
+main collaborators: Y. Blum, J. Cros
 
 <div class="column-right">
 ```{r, out.width = "300px", echo=FALSE, fig.align='center'}
