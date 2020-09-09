@@ -23,7 +23,8 @@ This program targets the current critical need to evaluate novel computational m
 
 # Data challenge in class
 
-We also organize data challenges within master programs at University Grenoble Alpes.
+We also organize data challenges within master programs at University Grenoble Alpes. 
+See examples below.
 
 ### 2019: Linear models
 
