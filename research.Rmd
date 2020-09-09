@@ -44,7 +44,7 @@ knitr::include_graphics("pictures/FIG1.png")
 ***
 
 # (Epi)genetic regulation and variability
-main collaborators: D. Jost, S. Khochbin, A. Bardet
+main collaborators: D. Jost, S. Khochbin, S. Rousseaux
 
 <div class="column-right">
 ```{r, out.width = "300px", echo=FALSE, fig.align='center'}
